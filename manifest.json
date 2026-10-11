@@ -1,0 +1,16 @@
+{
+  "name": "KinoPub for Nuvio",
+  "version": "0.2.0",
+  "description": "Authorized Stremio source with TMDB external-ID resolution; requires private local settings and Nuvio TMDB credentials. Not an independent KinoPub client.",
+  "scrapers": [{
+    "id": "kinopub-dev",
+    "name": "KinoPub",
+    "version": "0.2.0",
+    "filename": "providers/kinopub.js",
+    "supportedTypes": ["movie", "tv"],
+    "contentLanguage": ["ru", "en"],
+    "formats": ["m3u8", "mp4"],
+    "enabled": true,
+    "hasSettings": true
+  }]
+}
